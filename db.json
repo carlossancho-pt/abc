@@ -62,6 +62,21 @@
           "postId": 3
         }
       ]
+    },
+    {
+      "id": 4,
+      "user": "User 4",
+      "text": "Novo Post!",
+      "timestamp": 1547634699139,
+      "likes": 11,
+      "comments": [
+        {
+          "id": 7,
+          "user": "User 1",
+          "body": "Novo Comentario!",
+          "postId": 4
+        }
+      ]
     }
   ],
   "users": [
