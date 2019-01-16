@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "User 1",
+      "text": "Primeiro post na nova Social Network! :D",
+      "timestamp": 1547634519139,
+      "likes": 10000,
+      "comments": [
+        {
+          "id": 1,
+          "user": "User 2",
+          "body": "WOW!",
+          "postId": 1
+        },
+        {
+          "id": 2,
+          "user": "User 3",
+          "body": "Awesome :D",
+          "postId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user": "User 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "timestamp": 1547634529139,
+      "likes": 5,
+      "comments": [
+        {
+          "id": 3,
+          "user": "User 1",
+          "body": "Proin eros neque, suscipit sit amet sapien id, lacinia maximus eros.",
+          "postId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user": "User 4",
+      "text": "Vestibulum scelerisque mi vitae condimentum sollicitudin. Morbi egestas eleifend sem et feugiat. Sed sapien felis, imperdiet eu enim eget, euismod sollicitudin neque. Proin varius at enim venenatis consectetur.",
+      "timestamp": 1547634599139,
+      "likes": 10,
+      "comments": [
+        {
+          "id": 4,
+          "user": "User 1",
+          "body": "Quisque tristique volutpat ipsum eu bibendum.",
+          "postId": 3
+        },
+        {
+          "id": 5,
+          "user": "User 2",
+          "body": "Cras neque massa, pellentesque vitae orci sit amet, interdum ullamcorper tortor!",
+          "postId": 3
+        },
+        {
+          "id": 6,
+          "user": "User 3",
+          "body": "Ut varius congue posuere.",
+          "postId": 3
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User 1",
+      "avatar": "https://avatars.dicebear.com/v2/male/user1.svg"
+    },
+    {
+      "id": 2,
+      "name": "User 2",
+      "avatar": "https://avatars.dicebear.com/v2/female/user2.svg"
+    },
+    {
+      "id": 3,
+      "name": "User 3",
+      "avatar": "https://avatars.dicebear.com/v2/male/user3.svg"
+    },
+    {
+      "id": 4,
+      "name": "User 4",
+      "avatar": "https://avatars.dicebear.com/v2/female/user4.svg"
+    }
+  ]
+}
